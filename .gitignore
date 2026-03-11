@@ -1,10 +1,28 @@
+# Python
 __pycache__/
-*.pyc
-venv/
-env/
+*.py[cod]
+*.pyo
 .env
-node_modules/
-.DS_Store
+*.egg-info/
 dist/
 build/
-.vscode/
+
+# Flutter / Dart
+vastu_ai_app/build/
+vastu_ai_app/.dart_tool/
+vastu_ai_app/.flutter-plugins
+vastu_ai_app/.flutter-plugins-dependencies
+vastu_ai_app/.pub-cache/
+vastu_ai_app/.pub/
+*.apk
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+*.iml
